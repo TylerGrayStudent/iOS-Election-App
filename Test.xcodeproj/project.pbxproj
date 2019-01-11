@@ -8,6 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		2F95D7B121B9FBAB00C3D0D3 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F95D7B021B9FBAB00C3D0D3 /* main.swift */; };
+		2F95D7BE21B9FBC000C3D0D3 /* Office.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F95D7B721B9FBBF00C3D0D3 /* Office.swift */; };
+		2F95D7BF21B9FBC000C3D0D3 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F95D7B821B9FBBF00C3D0D3 /* Main.swift */; };
+		2F95D7C021B9FBC000C3D0D3 /* Vote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F95D7B921B9FBBF00C3D0D3 /* Vote.swift */; };
+		2F95D7C121B9FBC000C3D0D3 /* Ballot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F95D7BA21B9FBBF00C3D0D3 /* Ballot.swift */; };
+		2F95D7C221B9FBC000C3D0D3 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F95D7BB21B9FBC000C3D0D3 /* User.swift */; };
+		2F95D7C321B9FBC000C3D0D3 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F95D7BC21B9FBC000C3D0D3 /* File.swift */; };
+		2F95D7C421B9FBC000C3D0D3 /* Voter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F95D7BD21B9FBC000C3D0D3 /* Voter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +32,13 @@
 /* Begin PBXFileReference section */
 		2F95D7AD21B9FBAB00C3D0D3 /* Test */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Test; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F95D7B021B9FBAB00C3D0D3 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		2F95D7B721B9FBBF00C3D0D3 /* Office.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Office.swift; sourceTree = "<group>"; };
+		2F95D7B821B9FBBF00C3D0D3 /* Main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
+		2F95D7B921B9FBBF00C3D0D3 /* Vote.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vote.swift; sourceTree = "<group>"; };
+		2F95D7BA21B9FBBF00C3D0D3 /* Ballot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ballot.swift; sourceTree = "<group>"; };
+		2F95D7BB21B9FBC000C3D0D3 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		2F95D7BC21B9FBC000C3D0D3 /* File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		2F95D7BD21B9FBC000C3D0D3 /* Voter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Voter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +55,13 @@
 		2F95D7A421B9FBAA00C3D0D3 = {
 			isa = PBXGroup;
 			children = (
+				2F95D7BA21B9FBBF00C3D0D3 /* Ballot.swift */,
+				2F95D7BC21B9FBC000C3D0D3 /* File.swift */,
+				2F95D7B821B9FBBF00C3D0D3 /* Main.swift */,
+				2F95D7B721B9FBBF00C3D0D3 /* Office.swift */,
+				2F95D7BB21B9FBC000C3D0D3 /* User.swift */,
+				2F95D7B921B9FBBF00C3D0D3 /* Vote.swift */,
+				2F95D7BD21B9FBC000C3D0D3 /* Voter.swift */,
 				2F95D7AF21B9FBAB00C3D0D3 /* Test */,
 				2F95D7AE21B9FBAB00C3D0D3 /* Products */,
 			);
@@ -119,7 +140,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F95D7BF21B9FBC000C3D0D3 /* Main.swift in Sources */,
 				2F95D7B121B9FBAB00C3D0D3 /* main.swift in Sources */,
+				2F95D7C321B9FBC000C3D0D3 /* File.swift in Sources */,
+				2F95D7C221B9FBC000C3D0D3 /* User.swift in Sources */,
+				2F95D7C121B9FBC000C3D0D3 /* Ballot.swift in Sources */,
+				2F95D7BE21B9FBC000C3D0D3 /* Office.swift in Sources */,
+				2F95D7C421B9FBC000C3D0D3 /* Voter.swift in Sources */,
+				2F95D7C021B9FBC000C3D0D3 /* Vote.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
